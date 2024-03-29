@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 4rem;
+    border: 2px solid rgba(0, 0, 0, 0.265);
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.container:hover{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.142);
+    transition: 0.7s ease-in-out;
+}
+.container h1{
+    height: 40%;
+    margin: 0;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.container .card{
+    width: 90%;
+    margin: auto;
+}
+
+.container .card .card-input .input1{
+    width: 18rem;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.393);
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+
+.container .card .card-input button{
+    width: 8rem;
+    height: 2.3rem;
+    background-color: rgb(133, 214, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .items{
+    width: 90%;
+    margin: auto;
+}
+
+.container .items .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .items .item p{
+    width: 70%;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .items .item button{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 1.5rem;
+    width: 4rem;
+    cursor: pointer;
+    
+}
+
+
+.container .toast {
+    text-align: center;
+}
